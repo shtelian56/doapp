@@ -6,7 +6,7 @@ services:
         ports:
             - 8081:80
         volumes:
-            - "/var/lib/jenkins/workspace/BGApp/cecoapp/web:/var/www/html:ro"
+            - "/var/lib/jenkins/workspace/AppFromOldHW/doapp/web:/var/www/html:ro"
         networks:
             - app-network
         depends_on:
